@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #F4F5FF;
+}
+
+
+.glossy {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+}
+
+
+/*HEADER*//*HEADER*//*HEADER*/
+
+
+#navbar {
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+padding-top: 60px;
+}
+  
+#navbar .right {
+    float: right;
+    padding-right: 25px;
+}
+
+#drop_menu {
+    border-radius: 5px;
+    position: fixed;
+    right: 15px;
+    top: 60px;
+    background-color: #353935;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#drop_menu a {
+    border-radius: 5px;
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    list-style: none;
+  }
+
+#drop_menu a:hover {
+  background-color: #28282B;
+}
+
+.hide {
+    display: none;
+}
+.show {
+  display: block;
+}
+
+/*HEADER*//*HEADER*//*HEADER*/
+/*FOOTER*//*FOOTER*//*FOOTER*/
+
+footer .container-fluid{
+    height: 70px;
+}
+
+footer .iot-dp {
+    font-size: 1.2rem;
+    color: white;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*FOOTER*//*FOOTER*//*FOOTER*/
+/* MAIN *//* MAIN *//* MAIN */
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-container div {
+  margin: 20px;
+  margin-bottom: 50px;
+
+}
+
+.btn {
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex-container div h3 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.flex-container div input{
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f6f6ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+  
+
+.schedule-content {
+    position: relative;
+    background-color: #ffffff;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pulse-content {
+  padding-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 0px 12px;
+
+}
+
+.temp-content {
+  padding-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 0px 12px;
+
+}
+.heading {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.welcome {
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-top: 15px;
+
+}
+
+.latest_temperature {
+  margin: auto;
+}
+.latest_temperature .value{
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.latest_temperature .title {
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+.latest_pulse {
+  margin: auto;
+}
+.latest_pulse .value{
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.latest_pulse .title {
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+.prediction {
+  position: relative;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 98%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px
+
+}
+
+.predText {
+  display: block;
+  margin: 0%;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0%;
+}
+.predButton {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+
+}
+
+
+/* MAIN *//* MAIN *//* MAIN */
+
